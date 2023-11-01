@@ -11,10 +11,16 @@ package ejemplo01;
  */
 public class Ejemplo04 {
     public static void main(String[] args) {
+        /*
+        println vs print
+        La principal diferencia entre el println y el print es que el
+        println agrega un salto de línea al momento de presentar en
+        patallada el resultado, en cambio el print continua en la misma línea.
+        */
         String nombreEstudiante = "René Rolando";
         String apellidoEstudiante = "Elizalde Solano";
         int nacimiento = 1983;
-        System.out.print(nombreEstudiante + " ");
+        System.out.println(nombreEstudiante + " ");
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
